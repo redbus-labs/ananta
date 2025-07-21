@@ -13,7 +13,7 @@ of the creator was to make the end consumers aware of the costs and benefits
 running beneath the software. This will allow the users of this Key-Value Store
 efficiently and effectively use it to their benefit.
 
-Try to utilize maxmimum benifits from Erlang/OTP and Mnesia.
+Try to utilize maxmimum benifits from Erlang/OTP.
 
 ## Vision
 
