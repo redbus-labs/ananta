@@ -1,0 +1,42 @@
+%%%-------------------------------------------------------------------
+%%% @author navanee
+%%% @copyright (C) 2020, redBus
+%%% @doc
+%%%
+%%% @end
+%%%-------------------------------------------------------------------
+{application, ananta,
+    [
+        {description, "Ananta is next gen KV store."},
+        {vsn, "0.1.0"},
+        {registered, []},
+        {applications,
+            [
+                kernel,
+                stdlib,
+                sasl,
+                runtime_tools,  %% allow observer_backend
+                tools,  %% allow fprof and friends
+                raven_erlang,
+                lager,
+                cowboy,
+                compiler,
+                inets,
+                crypto,
+                ssl,
+                jiffy,
+                os_mon,
+                syntax_tools,
+                eredis,
+                mysql
+            ]},
+        {included_applications, [
+            xxhash,
+            recon
+        ]},
+        {mod, {ananta_app, []}},
+        {env, []},
+        {maintainers, ["redBus CTO Team"]},
+        {licenses, []},
+        {links, []}
+    ]}.
