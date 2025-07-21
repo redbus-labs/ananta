@@ -28,14 +28,25 @@ The high level plan is as follows:
 
 Write:
 curl -v -X PUT http://localhost:8001/kv/mykey      -H "Content-Type: application/json"      -d '{"value": "myvalue"}'
-
 Read:
-curl -X GET http://localhost:8002/kv/mykey
-
-
+curl -X GET http://localhost:8001/kv/mykey
 Delete:
-
 curl -X DELETE http://localhost:8001/kv/mykey
+
+Latency check
+Running 30s test @ http://localhost:8001/kv/mykey
+  4 threads and 100000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     6.27ms    8.43ms   1.62s    99.23%
+    Req/Sec    36.95k    11.64k   68.75k    65.02%
+  Latency Distribution
+     50%    5.81ms
+     75%    7.64ms
+     90%    9.57ms
+     99%   14.14ms
+  4407404 requests in 30.10s, 575.91MB read
+ Requests/sec: 146410.59
+ Transfer/sec:     19.13MB
 
 
 ## Building and Running Ananta
