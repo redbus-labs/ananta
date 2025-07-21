@@ -1,28 +1,27 @@
 # Ananta
-Ananta is nextGen KV store built in based on Erlang actors for builing massively scalable and fault tolernat. 
-It has built with various features like clusters, duplication with quorum logic, WAL, Snapshots, LRU based on size etc. 
+Ananta is a next-generation key-value store. It is built on Erlang actors, enabling massive scalability and fault tolerance.
+  
+Key features include:
+  Clustering
+  Duplication with quorum logic
+  Write-Ahead Logging (WAL)
+  Snapshots
+  Size-based Least Recently Used (LRU) caching
 
 ## Overview
 
 
 ## Introduction
 
-Why build another KV Store when there are so many already?
-It's the only question isn't it? Well just say that the original motivation
-of the creator was to make the end consumers aware of the costs and benefits
-running beneath the software. This will allow the users of this Key-Value Store
-efficiently and effectively use it to their benefit.
-
-Try to utilize maxmimum benifits from Erlang/OTP.
+A fundamental question arises: why develop another Key-Value Store when numerous options already exist? The primary impetus behind its creation was to transparently communicate the underlying costs and benefits of the software to end consumers. This empowers users to leverage the Key-Value Store with maximum efficiency and effectiveness, drawing significant advantages from Erlang/OTP.
 
 ## Vision
 
-The high level plan is as follows:
-
-* Easy way to scale horizontally  
-* Cheap and powerful distributed KV Store
-* Store large volume of data with cheaper price
-* A lot more realtime monitoring
+The high-level plan encompasses several key objectives:
+Horizontal Scalability: Implement an easy and efficient method for horizontal scaling.
+Cost-Effective Distributed KV Store: Utilize a cheap yet powerful distributed Key-Value store.
+Large Volume Data Storage: Store a significant volume of data at a reduced cost.
+Enhanced Real-time Monitoring: Provide more comprehensive real-time monitoring capabilities.
 
 ## Quick Tour
 
@@ -129,8 +128,4 @@ elvis before it can be submitted.
     ./elvis rock <filename>
 
 ## References
-
-
-
-
 
