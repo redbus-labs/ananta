@@ -1,12 +1,12 @@
 # Ananta
 Ananta is a next-generation key-value store. It is built on Erlang actors, enabling massive scalability and fault tolerance.
-  
-Key features include:
-  Clustering
-  Duplication with quorum logic
-  Write-Ahead Logging (WAL)
-  Snapshots
-  Size-based Least Recently Used (LRU) caching
+    
+Key features include:  
+  Clustering  
+  Duplication with quorum logic  
+  Write-Ahead Logging (WAL)  
+  Snapshots  
+  Size-based Least Recently Used (LRU) caching  
 
 ## Overview
 
@@ -17,11 +17,11 @@ A fundamental question arises: why develop another Key-Value Store when numerous
 
 ## Vision
 
-The high-level plan encompasses several key objectives:
-Horizontal Scalability: Implement an easy and efficient method for horizontal scaling.
-Cost-Effective Distributed KV Store: Utilize a cheap yet powerful distributed Key-Value store.
-Large Volume Data Storage: Store a significant volume of data at a reduced cost.
-Enhanced Real-time Monitoring: Provide more comprehensive real-time monitoring capabilities.
+The high-level plan encompasses several key objectives:  
+Horizontal Scalability: Implement an easy and efficient method for horizontal scaling.  
+Cost-Effective Distributed KV Store: Utilize a cheap yet powerful distributed Key-Value store.  
+Large Volume Data Storage: Store a significant volume of data at a reduced cost.  
+Enhanced Real-time Monitoring: Provide more comprehensive real-time monitoring capabilities.  
 
 ## Quick Tour
 
